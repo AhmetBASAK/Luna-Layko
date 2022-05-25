@@ -1,0 +1,35 @@
+
+
+body {
+    font-family: $lato;
+    font-size: $font-16;
+    box-sizing: border-box;
+    background-color: $color-primary;
+    color: $color-white;
+
+
+    a,
+    p {
+        text-decoration: none;
+        color: $color-white;
+        margin: 0;
+    }
+}
+
+
+
+
+.world-center {
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 450px;
+
+}
+
+
+.world-image {
+    width: 450px;
+    height: 450px;
+}
+

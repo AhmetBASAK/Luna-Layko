@@ -1,0 +1,56 @@
+section{
+    display: block;
+    width: 100%;
+}
+#home{
+    padding-bottom: 80px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+#about{
+    padding-bottom: 80px;
+}
+
+#induction{
+    padding-bottom: 120px;
+}
+
+#road-map{
+    padding-bottom: 80px;
+
+    .section-title{
+        padding-bottom: 80px;
+    }
+}
+#library{
+    padding-bottom: 80px;
+}
+.offset-left{
+    margin-left: 16.6%;
+
+}
+
+
+.section-title {
+    margin-bottom: 50px;
+    text-align: center;
+
+h5{
+    font-size: $font-48;
+    font-family: $lato;
+    font-weight: 700;
+    line-height: 57.6px;
+}
+
+p{
+    font-size: $font-18;
+    font-family: $poppins;
+    font-weight: 400;
+    line-height: 27px;
+
+    max-width: 600px;
+    margin: auto;
+}
+}

@@ -1,0 +1,133 @@
+$card-image-height:394px;
+$card-width:394px;
+$card-height:590px;
+
+
+
+  
+    .card{
+        background: linear-gradient(139.13deg, rgba(152, 184, 207, 0.08) 0%, rgba(172, 74, 213, 0.05) 100%);;
+        padding: 40px 30px;
+        border: 2px solid #B09895;
+        height: $card-height;
+        border-radius: 23px;
+        margin-bottom: 15px;
+    
+        .card-text {
+            font-family: $poppins;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #FFFFFF;
+        }
+    
+        .card-title {
+            font-family: $lato;
+            font-style: normal;
+            font-weight: 700;
+         font-size: 24px;
+            line-height: 29px;
+        }
+
+        .card-image{
+            margin: auto;
+        }
+.card-img-top{
+    height: 100%;
+}
+    }
+    .card:hover{
+        background: linear-gradient(139.13deg, rgba(152, 184, 207, 0.34) 0%, rgba(172, 74, 213, 0.05) 100%);;
+    
+    }
+
+
+
+    @media (min-width: 1200px) {
+        .container-percent {
+            width: 66%;
+            margin: auto;
+        }
+    }
+    
+ 
+
+    @media (max-width: 576px) {
+        .card .card-text{font-size: 16px!important;}
+        .card-title{font-size: 20px!important;}
+    }
+    @media (max-width: 768px) {
+        .card .card-text{font-size: 16px!important;}
+        .card-title{font-size: 20px!important;}
+    }
+    @media (max-width: 992px) {
+        .card .card-text{font-size: 16px!important;}
+        .card-title{font-size: 20px!important;}
+    }
+
+    .card-profile .card-avatar{
+        max-width: 240px;
+        max-height: 240px;
+        margin: -150px auto 0;
+        border-radius: 50%;
+        overflow: hidden;
+
+
+        .img {
+            width: 100%;
+            height: auto;
+        }
+    }
+.card-profile{
+    .media{
+        padding-bottom: 15px;
+    }
+    .card-caption{
+        font-size: $font-36;
+        color: $color-white;
+        text-align: center;
+    }
+    .category{
+        font-size: $font-24;
+        color: $color-white;
+    }
+    .card-description{
+        font-size: $font-16;
+        color: $color-white;
+    }
+}
+.card.card-profile{
+    margin-bottom: 15px;
+}
+
+.card-lg{
+background: linear-gradient(139.13deg, rgba(152, 184, 207, 0.08) 0%, rgba(172, 74, 213, 0.05) 100%);
+border: 1px solid rgba(176, 152, 149, 1);
+backdrop-filter: blur(32px);
+height: 352px;
+border-radius: 17px;
+padding: 44px;
+margin-bottom: 15px;
+    .card-image{
+        width: 115px;
+        height: 115px;
+        margin-bottom: 24px;
+
+        .img{
+            display: block;
+            height: 115px;
+            width: 115px;
+        }
+    }
+    .card-title{
+        font-size: $font-32;
+        font-weight: 600;
+        font-family: $lato;
+    }
+    p{
+        font-size: $font-18;
+        font-weight: 400;
+        font-family: $poppins;
+    }
+}
